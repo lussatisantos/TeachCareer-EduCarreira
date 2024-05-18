@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Professor</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registro de Professor </h2>
+        <form action="processar_registro_professor.php" method="post">
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Endereço de e-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" name="telefone">
+
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco">
+
+            <label for="disciplina">Disciplina:</label>
+            <input type="text" id="disciplina" name="disciplina" placeholder="Digite a disciplina">
+
+            <label for="curso">Curso:</label>
+            <input type="text" id="curso" name="curso" placeholder="Digite o curso">
+
+            <form action="processar_upload.php" method="post" enctype="multipart/form-data">
+                <label for="imagem">Imagem do rosto:</label>
+                <input type="file" id="imagem" name="imagem" accept="image/*"><br><br>
+                
+                <label for="pdf">Curricolum  PDF:</label>
+                <input type="file" id="pdf" name="pdf" accept=".pdf"><br><br>
+                
+            </form>
+            <form action="processar_formulario.php" method="post">
+                <label for="tipo_ensino">Tipo de Ensino:</label>
+                <select id="tipo_ensino" name="tipo_ensino">
+                    <option value="edu_infantil">Educação Infantil</option>
+                    <option value="ens_fundamental">Ensino Fundamental</option>
+                    <option value="ens_medio">Ensino Médio</option>
+                    <option value="edu_superior">Educação Superior</option>
+
+            
+        </form>
+
+        <input type="submit" value="Registrar">
+    </div>
+</body>
+</html>

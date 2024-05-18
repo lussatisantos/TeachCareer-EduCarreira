@@ -1,0 +1,132 @@
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  /* HEADER */
+  
+  header {
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+      background-color: #09079e8f;
+      background-image: url('../img/background-home.jpg');
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  
+  header h1 img {
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .search-bar {
+    display: flex;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 8px;
+  }
+  
+  .search-bar button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+
+  .button{
+  
+    background-color: #4f9cf9;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+}
+
+.button:hover{
+    background-color: #3580db;
+
+}
+
+header nav {
+  margin-right: 100px;
+}
+
+/* DIV NAV */
+
+#header-menu nav a {
+  margin: 0 10px;
+}
+
+#header-menu {
+  background-color:  #3580db;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+#header-menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* MAIN */
+
+  
+  main {
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+  }
+
+
+  /* FOOTER */
+  
+  footer nav a {
+    margin: 0 10px;
+  }
+  
+  footer {
+    background-color:  #3580db;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  footer img:hover {
+    border: 1px solid white;
+    background-color: white;
+  }
+
+  footer img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
